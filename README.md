@@ -1,4 +1,4 @@
-### stock_price_prediction
+# stock_price_prediction
 ## Motivation
 This project aims to develop a predictive model for Tesla's stock prices using historical data, driven by the motivation to contribute to the field of predictive analytics and improve investment strategies. By analyzing and identifying patterns in historical stock price data, this project seeks to provide valuable insights for investors, traders, and financial analysts, ultimately informing data-driven investment decisions. Additionally, this project serves as a practical application of machine learning and data analysis concepts, making it an educational and skill-building endeavor. With the potential to identify key factors influencing stock prices and compare the performance of different modeling techniques, this project offers a comprehensive approach to understanding market trends and predicting future stock prices.
 
@@ -34,7 +34,7 @@ The dataset for this project is a CSV file named "Tesla.csv" containing historic
 - Volume: The trading volume
 - Close: The closing stock price (target variable)
 
-# The dataset may also include additional columns, such as:
+### The dataset may also include additional columns, such as:
 
 - Adj Close: The adjusted closing stock price
 - Adj High: The adjusted highest stock price
@@ -42,7 +42,7 @@ The dataset for this project is a CSV file named "Tesla.csv" containing historic
 - Adj Open: The adjusted opening stock price
 - Adj Volume: The adjusted trading volume
 
-# The dataset can be obtained from various sources, including:
+### The dataset can be obtained from various sources, including:
 
 - Yahoo Finance
 - Quandl
