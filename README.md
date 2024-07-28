@@ -71,12 +71,12 @@ Actual and predicted price graph
 
 Actual and Predicted price
 
-<img width="200" alt="Capture2" src="https://github.com/user-attachments/assets/3fe569f8-e9ec-4d36-b531-d852465acb1e">
+<img width="300" alt="Capture2" src="https://github.com/user-attachments/assets/3fe569f8-e9ec-4d36-b531-d852465acb1e">
 
 
 Data type
 
-<img width="131" alt="Capture3" src="https://github.com/user-attachments/assets/6545023d-7b9f-4632-b1f3-d95de0337401">
+<img width="300" alt="Capture3" src="https://github.com/user-attachments/assets/6545023d-7b9f-4632-b1f3-d95de0337401">
 
 
 Dataset Details
