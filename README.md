@@ -58,20 +58,31 @@ Exploratory Data Analysis
 
 Exploratory Data Analysis (EDA) for this project involves visualizing and exploring the Tesla stock price data to uncover patterns, trends, and relationships. This includes plotting the stock prices over time to identify trends, seasonality, and anomalies, as well as calculating summary statistics to understand the distribution and relationships between variables. Distribution plots, such as histograms and box plots, are used to visualize the distribution of stock prices, while correlation analysis reveals relationships between variables. Time series decomposition separates the data into trend, seasonality, and residuals, and moving averages and smoothing techniques reduce noise and highlight trends. Technical indicators like RSI and Bollinger Bands are also calculated to identify potential trading signals. Finally, scatter plots and heatmaps visualize relationships between variables, providing insights into potential correlations and patterns. Through EDA, we gain a deeper understanding of the data, identify potential features and patterns, and inform the development of a robust predictive model for Tesla's stock prices.
 
+
 Close geaph
+
 <img width="436" alt="Capture" src="https://github.com/user-attachments/assets/b7010d64-1727-4af3-8fd9-6f404c6fb0f0">
 
+
 Actual and predicted price graph
+
 <img width="484" alt="Capture1" src="https://github.com/user-attachments/assets/a40309e3-e176-4473-9ca5-5a68122a0aa1">
 
+
 Actual and Predicted price
+
 <img width="200" alt="Capture2" src="https://github.com/user-attachments/assets/3fe569f8-e9ec-4d36-b531-d852465acb1e">
 
+
 Data type
+
 <img width="131" alt="Capture3" src="https://github.com/user-attachments/assets/6545023d-7b9f-4632-b1f3-d95de0337401">
 
+
 Dataset Details
+
 <img width="113" alt="Capture4" src="https://github.com/user-attachments/assets/547ccd68-7cee-4845-adc5-ce1314f6a410">
+
 
 Logistic Regression
 
@@ -87,6 +98,9 @@ Logistic Regression is not typically used for stock price prediction, as it is a
     - Market data (e.g. volume, sentiment)
 - Evaluate the model using metrics such as accuracy, precision, recall, and F1 score
 
+Comparing Various Models
 
+Comparing various models for this project reveals distinct strengths and weaknesses. Linear Regression serves as a baseline model, but its simplicity may not capture complex patterns. Decision Trees improve upon linear regression, but are prone to overfitting. Random Forest mitigates overfitting and performs better, but can be computationally expensive. Neural Networks excel at capturing complex patterns, but require careful tuning and are difficult to interpret. ARIMA/SARIMA models shine on time series data, capturing seasonality and trends, but assume stationarity. LSTM/GRU models handle time series data with long-term dependencies, but are computationally expensive and prone to overfitting. Ultimately, the best model depends on the specific dataset, feature engineering, and hyperparameter tuning. A combination of models, such as using ARIMA for trend analysis and Neural Networks for pattern recognition, may yield the most accurate predictions for Tesla's stock prices.
 
-
+Conclusion
+In conclusion, this project successfully developed a predictive model for Tesla's stock prices by leveraging historical data, exploratory data analysis, feature engineering, and model comparison. The findings revealed that a combination of technical indicators, fundamental data, and market data improves model performance, while Random Forest and Neural Networks demonstrate potential in capturing complex patterns. Additionally, ARIMA/SARIMA models excel in time series analysis, although assuming stationarity, and LSTM/GRU models handle long-term dependencies with careful tuning. By integrating these insights, a robust predictive model can be developed to inform investment and analytical decisions. Future refinements can explore additional data sources, such as sentiment analysis or economic indicators, and advanced techniques like ensemble learning or transfer learning to further enhance the model's accuracy and reliability.
